@@ -23,7 +23,7 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
 services:
   sample-repo:
-    service_id: githubconsolidated
+    service_id: github_integrated
     parameters:
       repo_name: '{{toolchain.name}}'
       source_repo_url: 'https://github.com/open-toolchain/node-hello-world'
