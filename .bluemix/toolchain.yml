@@ -53,7 +53,7 @@ services:
       enable_traceability: true
       private_repo: false
   sample-repo1:
-    service_id: $env.source_provider ? $env.source_provider:'hostedgit'
+    service_id: 'githubconsolidated'
     parameters:
       repo_name: '{{toolchain.name}}'
       repo_url: >
