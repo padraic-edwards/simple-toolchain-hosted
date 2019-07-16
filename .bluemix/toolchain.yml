@@ -16,6 +16,8 @@ template:
   required:
     - sample-build
     - sample-repo
+    - webide
+    - sample-repo1
   info:
     #original static git url and branch string definitions
     #git url: >-
