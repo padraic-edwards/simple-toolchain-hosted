@@ -18,6 +18,7 @@ template:
     - sample-repo
     - webide
     - sample-repo1
+    - sample-worker
   info:
     #original static git url and branch string definitions
     #git url: >-
