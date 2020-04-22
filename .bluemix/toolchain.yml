@@ -18,7 +18,6 @@ template:
     - sample-repo
     - webide
     - sample-repo1
-    - sample-worker
   info:
     #original static git url and branch string definitions
     #git url: >-
@@ -55,8 +54,7 @@ services:
       has_issues: true
       enable_traceability: true
       private_repo: false
-  sample-worker:
-    service_id: 'private_worker'
+
   sample-repo1:
     service_id: 'githubconsolidated'
     parameters:
@@ -89,8 +87,6 @@ services:
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
           API_KEY: '{{form.pipeline.parameters.api-key}}'
         execute: true
-  privateWorker:
-    service_id: private_worker
 form:
   pipeline:
     parameters:
