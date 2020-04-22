@@ -54,6 +54,8 @@ services:
       has_issues: true
       enable_traceability: true
       private_repo: false
+  sample-worker:
+    service_id: 'private_worker'
   sample-repo1:
     service_id: 'githubconsolidated'
     parameters:
