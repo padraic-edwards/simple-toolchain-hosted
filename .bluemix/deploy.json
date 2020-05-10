@@ -64,7 +64,8 @@
             "title": {
                 "$ref": "#/messages/deploy.appName"
             },
-            "key": "prod-app-name"
+            "key": "prod-app-name",
+	    "placeholder":"Foo Text"
         },
         {
 	        "type": "password",
